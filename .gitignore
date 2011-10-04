@@ -1,4 +1,4 @@
 pom.xml
 src/test/**/*
-target/**/*
+target/**
 src/main/webapp/WEB-INF/**/*
