@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <title>Exception</title>
+        <script id="j2js-loader" type='text/javascript' defer='defer' src="assemblies/ExceptionDemo/0.js"></script>
+  </head>
+  <body>
+
+    <h1>Exception</h1>
+    
+    <div title="excerpt">
+      This demo will intentionally raise exceptions. You will love to see the stack trace.
+    </div>
+    <p>
+      The exception is triggered by two buttons, one of which will handle the exception, the other will not.
+    </p>
+    <p>
+      The demo shows that unhandled exceptions are caught at top level and 
+      the stack trace is written to <code>System.out</code>.
+    </p>
+    <p>  
+      The demo is coded in <a href="../projects/j2js-demos/src/main/java/j2js/demo/ExceptionDemo.java.html">ExceptionDemo.java</a>.
+      Note that we compiled the demo with the compiler option <code>generateLineNumbers="true"</code>. 
+    </p>
+    <p>
+      <button id="HANDLED_EXCEPTION">Raise handled Exception</button>
+      <button id="UNHANDLED_EXCEPTION">Raise Unhandled Exception</button>
+    </p>
+
+    <pre id="java.lang.System.out" />
+    
+  </body>
+</html>

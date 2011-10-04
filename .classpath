@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/j2js-jre"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/j2js-api"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

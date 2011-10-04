@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <title>Remote Table Demo</title>
+        <script id="j2js-loader" type='text/javascript' defer='defer' src="../assemblies/TableDemo/0.js"></script>
+  </head>
+  <body>
+    <h2>Remote Table Demo</h2>
+    
+    <div title="excerpt">
+      Simple table widget using AJAX features to fetch and delete data without page reload.
+      You can interactively choose from all common request methods (XMLHTML, Forms, Script). 
+    </div>
+    
+    <p>
+       Please see the <a href='../../docs/tutorial3.html'>table tutorial</a> for details.
+    </p>
+    
+    <fieldset>
+      <legend><b>j2js runtime config</b></legend>        
+        <span title="Use XMLHttpRequest object for fetches, default is ScriptHttpRequest">
+            <label for="HttpRequestType">Request Type</label>
+            <select id="HttpRequestType">
+              <option>XMLHttpRequest</option>
+              <option>FormHttpRequest</option>
+              <option>ScriptHttpRequest</option>
+            </select>
+        </span>
+    </fieldset>
+    
+    
+    <fieldset>
+      <legend><b>Operations</b></legend>
+      <!-- Begin buttons -->
+      <button id="create" title="Create a table">Create</button>
+      <button id="fetch" title="Fetch some rows from the server">Fetch</button>
+      <!-- End buttons -->
+      <button id="addRow" title="Add a single row">Add Row</button>
+      <button id="removeSelection" title="Remove all selected rows">Remove</button>
+      <button id="clear" title="Remove all data rows">Clear</button>
+    </fieldset>
+      
+    <!-- Begin div -->
+    <div id="MyDiv"></div>
+    <!-- End div -->
+    
+    <pre id="java.lang.System.out" />
+      
+  </body>
+
+</html>
