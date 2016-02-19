@@ -3,7 +3,6 @@ set COMPILER_DIR=../j2js-compiler
 REM Usage: java com.j2js.J2JSCompiler <basedir> <classpathElements> <entryPointClassName> <targetLocation>
 
 set RUNTIME_CLASSPATH=^
-%COMPILER_DIR%/libs/1.4/commons-io-1.4.jar;^
 %COMPILER_DIR%/libs/bcel-5.1.jar;^
 %COMPILER_DIR%/target/classes
 

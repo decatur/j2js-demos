@@ -1,0 +1,1 @@
+package de.rm.play;public class JSMe {String s;long l;public void print(String s) {    System.out.println(s);}public JSMe() {    l = Long.MAX_VALUE - 1;    s = "Hal"+"lo"+l;}public String getHello() {    return s;}public static void main(String arg[]) {    JSMe jsMe = new JSMe();    jsMe.print(jsMe.getHello());}}

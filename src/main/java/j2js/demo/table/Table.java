@@ -1,11 +1,5 @@
 /*
- * Copyright (c) 2005 j2js.com,
- *
- * All Rights Reserved. This work is distributed under the j2js Software License [1]
- * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.
- *
- * [1] http://www.j2js.com/license.txt
+ * Copyright (c) 2005 Wolfgang Kuehn
  */
 
 package j2js.demo.table;
@@ -28,8 +22,6 @@ import java.lang.RuntimeException;
 /**
  * A smart HTML table which supports client side editing and server fetches.
  * This implementation serves instructional purposes only.
- * 
- * @author j2js.com
  */
 public class Table implements ReadyStateChangeListener {
 
